@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/zedan-nasir-parol-917176199"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"></a>
   <a href="https://instagram.com/lifeofzedan"><img src="https://img.shields.io/badge/@lifeofzedan-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"></a>
-  <a href="https://instagram.com/zeeiscooking"><img src="https://img.shields.io/badge/@zeeiscooking-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"></a>
   <a href="mailto:zedanparol@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"></a>
   <img src="https://komarev.com/ghpvc/?username=zedanparol&style=for-the-badge&color=7C8CF8&label=VISITORS" alt="Profile views">
 </p>
