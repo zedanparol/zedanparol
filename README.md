@@ -1,5 +1,6 @@
 # 💫 Hi I'm ZEDAN PAROL
-🔭 I’m currently working on<br>A Heart Disease Risk Prediction ML web app (Scikit-learn + Streamlit, 99.7% accuracy)<br>A Disaster Management Alert Dashboard prototype for UAE scenarios<br>A Daily Habit Tracker app with Pandas + Streamlit<br>A Automation tool to integrate Meta applications.<br><br>👯 I’m looking to collaborate on<br>ML-powered web apps and dashboards (Streamlit/Gradio)<br>AI-driven entrepreneurship / startup-style projects<br><br>🤝 I’m looking for help with<br>Taking ML prototypes to production<br><br>🌱 I’m currently learning<br>Deep Learning & NLP<br>Cloud infrastructure — AWS, Apache Spark, MLOps<br><br>💬 Ask me about<br>Machine Learning, Python (Pandas/NumPy/Scikit-learn), Streamlit/Gradio apps, financial modeling & FP&A, prompt engineering<br><br>⚡ Fun fact<br>I do content creation which is basically my second stack alongside Python.
+🔭 I’m currently working on 
+A Automation tool to integrate Meta applications.<br><br>👯 I’m looking to collaborate on<br>ML-powered web apps and dashboards (Streamlit/Gradio)<br>AI-driven entrepreneurship / startup-style projects<br><br>🤝 I’m looking for help with<br>Taking ML prototypes to production<br><br>🌱 I’m currently learning<br>Deep Learning & NLP<br>Cloud infrastructure — AWS, Apache Spark, MLOps<br><br>💬 Ask me about<br>Machine Learning, Python (Pandas/NumPy/Scikit-learn), Streamlit/Gradio apps, financial modeling & FP&A, prompt engineering<br><br>⚡ Fun fact<br>I do content creation which is basically my second stack alongside Python.
 
 
 ## 🌐 Connect with me:
