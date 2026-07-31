@@ -1,8 +1,8 @@
-# 💫 About Me:
+# 💫 Hi I'm ZEDAN PAROL
 🔭 I’m currently working on<br>A Heart Disease Risk Prediction ML web app (Scikit-learn + Streamlit, 99.7% accuracy)<br>A Disaster Management Alert Dashboard prototype for UAE scenarios<br>A Daily Habit Tracker app with Pandas + Streamlit<br>A Automation tool to integrate Meta applications.<br><br>👯 I’m looking to collaborate on<br>ML-powered web apps and dashboards (Streamlit/Gradio)<br>AI-driven entrepreneurship / startup-style projects<br><br>🤝 I’m looking for help with<br>Taking ML prototypes to production<br><br>🌱 I’m currently learning<br>Deep Learning & NLP<br>Cloud infrastructure — AWS, Apache Spark, MLOps<br><br>💬 Ask me about<br>Machine Learning, Python (Pandas/NumPy/Scikit-learn), Streamlit/Gradio apps, financial modeling & FP&A, prompt engineering<br><br>⚡ Fun fact<br>I do content creation which is basically my second stack alongside Python.
 
 
-## 🌐 Socials:
+## 🌐 Connect with me:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Zedan Parol) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/lifeofzedan) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/zedan-nasir-parol-917176199) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:zedanparol@gmail.com) 
 
 # 💻 Tech Stack:
@@ -12,8 +12,6 @@
 ![](https://streak-stats.demolab.com/?user=zedanparol&theme=tokyonight&hide_border=true)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=zedanparol&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=zedanparol&theme=neon&no-frame=false&no-bg=false&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
