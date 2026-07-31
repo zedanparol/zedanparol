@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 28" width="1000" height="28" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7c8cf8" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#7c8cf8" stop-opacity="0.55"/>
+      <stop offset="50%"  stop-color="#9d8bf7" stop-opacity="0.75"/>
+      <stop offset="82%"  stop-color="#2dd4a8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2dd4a8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2dd4a8" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#2dd4a8" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%"   stop-color="#7ff5d0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7ff5d0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .node { fill: #30363d; }
+    .lit  { fill: #9d8bf7; animation: flick 3.2s ease-in-out infinite; }
+    .n2 { animation-delay: .8s } .n3 { animation-delay: 1.6s } .n4 { animation-delay: 2.4s }
+    @keyframes flick { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+
+    .packet { animation: run 4.2s linear infinite; }
+    @keyframes run { 0% { transform: translateX(-80px) } 100% { transform: translateX(1060px) } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .lit, .packet { animation: none !important; }
+      .packet { transform: translateX(500px) }
+    }
+  </style>
+
+  <rect x="0" y="13" width="1000" height="1.5" fill="url(#trace)"/>
+
+  <g>
+    <circle class="node" cx="120" cy="14" r="2.5"/>
+    <circle class="node" cx="330" cy="14" r="2.5"/>
+    <circle class="node" cx="500" cy="14" r="3.5"/>
+    <circle class="node" cx="670" cy="14" r="2.5"/>
+    <circle class="node" cx="880" cy="14" r="2.5"/>
+    <circle class="lit"    cx="120" cy="14" r="2.5"/>
+    <circle class="lit n2" cx="330" cy="14" r="2.5"/>
+    <circle class="lit n3" cx="500" cy="14" r="3.5"/>
+    <circle class="lit n4" cx="670" cy="14" r="2.5"/>
+  </g>
+
+  <g class="packet">
+    <ellipse cx="0" cy="14" rx="26" ry="9" fill="url(#glow)"/>
+    <rect x="-58" y="12.5" width="58" height="2.5" fill="url(#tail)"/>
+    <circle cx="0" cy="14" r="3.2" fill="#a7f3d8"/>
+  </g>
+</svg>
