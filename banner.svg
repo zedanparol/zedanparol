@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Zedan Parol — AI in Business at SP Jain Dubai">
+  <title>Zedan Parol — AI in Business @ SP Jain Dubai</title>
+
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7c8cf8"/>
+      <stop offset="48%"  stop-color="#9d8bf7"/>
+      <stop offset="100%" stop-color="#2dd4a8"/>
+    </linearGradient>
+
+    <linearGradient id="ruleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7c8cf8" stop-opacity="0.85"/>
+      <stop offset="55%"  stop-color="#2dd4a8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#2dd4a8" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8b949e" fill-opacity="0.09"/>
+    </pattern>
+
+    <clipPath id="clipL1"><rect class="typer t1" x="40" y="52" width="360" height="20"/></clipPath>
+    <clipPath id="clipL2"><rect class="typer t2" x="40" y="76" width="360" height="20"/></clipPath>
+    <clipPath id="clipTL"><rect x="654" y="100" width="292" height="80"/></clipPath>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono",
+                   Menlo, Consolas, "DejaVu Sans Mono", monospace;
+    }
+    .dim   { fill: #8b949e; }
+    .peri  { fill: #7c8cf8; }
+    .teal  { fill: #2dd4a8; }
+    .fg    { fill: #c9d1d9; }
+
+    .bracket {
+      stroke: #7c8cf8; stroke-width: 2; fill: none; stroke-linecap: square;
+      stroke-dasharray: 76; stroke-dashoffset: 76;
+      animation: draw .7s cubic-bezier(.2,.8,.3,1) forwards;
+    }
+    .b2 { animation-delay: .12s } .b3 { animation-delay: .24s } .b4 { animation-delay: .36s }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
+
+    .typer {
+      transform: scaleX(0); transform-box: fill-box; transform-origin: left center;
+      animation: type 1s steps(28, end) forwards;
+    }
+    .t1 { animation-delay: .5s }
+    .t2 { animation-delay: 1.5s }
+    @keyframes type { to { transform: scaleX(1) } }
+
+    .caret { fill: #2dd4a8; animation: blink 1.06s steps(1) infinite; }
+    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+
+    .ltr { opacity: 0; animation: pop .5s ease-out forwards; }
+    @keyframes pop { to { opacity: 1 } }
+
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.8,.3,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: translateY(0) } }
+
+    .rule { transform: scaleX(0); transform-box: fill-box; transform-origin: left center;
+            animation: type .9s cubic-bezier(.2,.8,.3,1) 3.7s forwards; }
+
+    .playhead { animation: sweep 7s cubic-bezier(.5,0,.5,1) 3.6s infinite; }
+    @keyframes sweep { 0% { transform: translateX(0) } 100% { transform: translateX(286px) } }
+
+    .pulse { animation: pulse 2.2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .25 } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bracket, .typer, .caret, .ltr, .rise, .rule, .playhead, .pulse { animation: none !important; }
+      .bracket { stroke-dashoffset: 0 }
+      .typer, .rule { transform: scaleX(1) }
+      .ltr, .rise { opacity: 1 }
+      .playhead { transform: translateX(150px) }
+    }
+  </style>
+
+  <rect width="1000" height="260" rx="10" fill="#0d1117"/>
+  <rect width="1000" height="260" rx="10" fill="url(#dots)"/>
+  <rect x=".5" y=".5" width="999" height="259" rx="10" fill="none" stroke="#30363d"/>
+
+  <path class="bracket"    d="M22 56 V22 H56"/>
+  <path class="bracket b2" d="M944 22 H978 V56"/>
+  <path class="bracket b3" d="M22 204 V238 H56"/>
+  <path class="bracket b4" d="M978 204 V238 H944"/>
+
+  <g class="mono" font-size="14">
+    <g clip-path="url(#clipL1)">
+      <text x="40" y="66">
+        <tspan class="teal">&#8594;</tspan><tspan class="dim">  ~/zedanparol </tspan><tspan class="peri">git:(</tspan><tspan class="teal">main</tspan><tspan class="peri">)</tspan>
+      </text>
+    </g>
+    <g clip-path="url(#clipL2)">
+      <text x="40" y="90">
+        <tspan class="teal">$</tspan><tspan class="fg"> ./deploy </tspan><tspan class="peri">--profile --live</tspan>
+      </text>
+    </g>
+    <rect class="caret" x="286" y="78" width="8" height="15"/>
+  </g>
+
+  <text class="mono" x="40" y="164" font-size="56" font-weight="700"
+        letter-spacing="7" fill="url(#nameGrad)">
+    <tspan class="ltr" style="animation-delay:2.5s">Z</tspan><tspan class="ltr" style="animation-delay:2.56s">E</tspan><tspan class="ltr" style="animation-delay:2.62s">D</tspan><tspan class="ltr" style="animation-delay:2.68s">A</tspan><tspan class="ltr" style="animation-delay:2.74s">N</tspan><tspan class="ltr" style="animation-delay:2.80s"> </tspan><tspan class="ltr" style="animation-delay:2.86s">P</tspan><tspan class="ltr" style="animation-delay:2.92s">A</tspan><tspan class="ltr" style="animation-delay:2.98s">R</tspan><tspan class="ltr" style="animation-delay:3.04s">O</tspan><tspan class="ltr" style="animation-delay:3.10s">L</tspan>
+  </text>
+
+  <text class="mono rise" style="animation-delay:3.2s" x="40" y="194" font-size="15">
+    <tspan class="dim">// </tspan><tspan class="fg">AI in Business </tspan><tspan class="peri">@ SP Jain Dubai</tspan>
+  </text>
+
+  <g class="mono" font-size="11" letter-spacing="0.6" text-anchor="middle">
+    <g class="rise" style="animation-delay:3.4s">
+      <rect x="40" y="208" width="54" height="22" rx="11" fill="#7c8cf8" fill-opacity="0.10" stroke="#7c8cf8" stroke-opacity="0.45"/>
+      <text x="67" y="223" fill="#a5aefb">NLP</text>
+    </g>
+    <g class="rise" style="animation-delay:3.48s">
+      <rect x="102" y="208" width="68" height="22" rx="11" fill="#2dd4a8" fill-opacity="0.10" stroke="#2dd4a8" stroke-opacity="0.45"/>
+      <text x="136" y="223" fill="#5ee0bd">MLOps</text>
+    </g>
+    <g class="rise" style="animation-delay:3.56s">
+      <rect x="178" y="208" width="108" height="22" rx="11" fill="#7c8cf8" fill-opacity="0.10" stroke="#7c8cf8" stroke-opacity="0.45"/>
+      <text x="232" y="223" fill="#a5aefb">AI Products</text>
+    </g>
+    <g class="rise" style="animation-delay:3.64s">
+      <rect x="294" y="208" width="84" height="22" rx="11" fill="#2dd4a8" fill-opacity="0.10" stroke="#2dd4a8" stroke-opacity="0.45"/>
+      <text x="336" y="223" fill="#5ee0bd">Creator</text>
+    </g>
+  </g>
+
+  <rect class="rule" x="40" y="242" width="470" height="2" fill="url(#ruleGrad)"/>
+
+  <text class="mono rise" style="animation-delay:.9s" x="936" y="66" font-size="12"
+        text-anchor="end" letter-spacing="1.5" fill="#484f58">[ DXB &#183; UTC+4 ]</text>
+
+  <g class="rise" style="animation-delay:3.6s">
+    <text class="mono" x="654" y="112" font-size="10" letter-spacing="2.5" fill="#484f58">RENDER &#183; TIMELINE</text>
+
+    <g clip-path="url(#clipTL)">
+      <rect x="654" y="124" width="70"  height="18" rx="2" fill="#7c8cf8" fill-opacity="0.32"/>
+      <rect x="728" y="124" width="46"  height="18" rx="2" fill="#2dd4a8" fill-opacity="0.24"/>
+      <rect x="778" y="124" width="94"  height="18" rx="2" fill="#7c8cf8" fill-opacity="0.18"/>
+      <rect x="876" y="124" width="64"  height="18" rx="2" fill="#2dd4a8" fill-opacity="0.32"/>
+
+      <rect x="654" y="150" width="286" height="1" fill="#30363d"/>
+      <g fill="#30363d">
+        <rect x="654" y="152" width="1" height="7"/><rect x="702" y="152" width="1" height="4"/>
+        <rect x="750" y="152" width="1" height="7"/><rect x="798" y="152" width="1" height="4"/>
+        <rect x="846" y="152" width="1" height="7"/><rect x="894" y="152" width="1" height="4"/>
+        <rect x="939" y="152" width="1" height="7"/>
+      </g>
+
+      <g class="playhead">
+        <rect x="654" y="118" width="1.5" height="46" fill="#9d8bf7"/>
+        <path d="M649 114 h11 l-5.5 7 z" fill="#9d8bf7"/>
+      </g>
+    </g>
+  </g>
+
+  <g class="mono rise" style="animation-delay:3.8s" font-size="11.5" letter-spacing="1.5">
+    <circle class="pulse teal" cx="742" cy="220" r="4"/>
+    <text class="teal" x="754" y="224">LIVE</text>
+    <text x="936" y="224" text-anchor="end" fill="#484f58">MAIB &#183; 2025 &#8594; 2027</text>
+  </g>
+</svg>
