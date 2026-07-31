@@ -1,4 +1,8 @@
-# 💫 Hi I'm ZEDAN PAROL
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zedanparol/zedanparol/main/banner.svg" alt="Zedan Parol" width="100%">
+</p>
+
+# 💫 About me:
 🔭 I’m currently working on<br>A Automation tool to integrate with Meta applications.<br><br>👯 I’m looking to collaborate on<br>ML-powered web apps and dashboards (Streamlit/Gradio)<br>AI-driven entrepreneurship / startup-style projects<br><br>🤝 I’m looking for help with<br>Taking ML prototypes to production<br><br>🌱 I’m currently learning<br>Deep Learning & NLP<br>Cloud infrastructure — AWS, Apache Spark, MLOps<br><br>💬 Ask me about<br>Machine Learning, Python (Pandas/NumPy/Scikit-learn), Streamlit/Gradio apps, financial modeling & FP&A, prompt engineering<br><br>⚡ Fun fact<br>I do content creation which is basically my second stack alongside Python.
 
 
